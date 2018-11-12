@@ -34,14 +34,5 @@ router.get('/feeds/:username', auth.auth, function (req, res) {
     })
 });
 
-
-function User(first, last, age, username, password) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.username = username;
-    this.password = password;
-}
-
 module.exports =
     router;
