@@ -33,10 +33,4 @@ router.delete('/tweets/:id', auth.auth, function (req, res) {
     })
 });
 
-
-function Tweet(tweet, username, date) {
-    this.tweet = tweet;
-    this.username = username;
-    this.date = date;
-}
 module.exports = router
