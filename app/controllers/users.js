@@ -21,7 +21,6 @@ router.post('/create', function (req, res) {
 
 // edit the user details by username
 router.put('/update/:username', auth.auth, function (req, res) {
-    // console.log(req.params.username);
     var request = req.body;
     user_model.updateUser(req.session.user, req.params.username, request, function (docs) {
         res.json(docs);
