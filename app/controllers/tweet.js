@@ -5,7 +5,6 @@ var auth = require('../middlewares/session')
 var tweet_model = require('../models/tweet_model');
 // get all the tweets by all users i.e timeline
 router.get('/tweets', auth.auth, function (req, res) {
-    console.log(req.session.user);
     tweet_model.getAllTweets(req.query.from, req.query.to, req.query.noOfTweets, function (docs) {
         res.json(docs);
     });
@@ -14,7 +13,6 @@ router.get('/tweets', auth.auth, function (req, res) {
 // post a tweet
 router.post('/tweets', auth.auth, function (req, res) {
     var request = req.body;
-    // console.log;
     tweet_model.postTweet(req.session.user, request, function (docs) {
         res.json(docs);
     });
