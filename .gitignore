@@ -1,0 +1,17 @@
+/.idea
+/artifacts
+/dist
+/tools
+/coverage
+/node_modules
+/src/*.js
+/src/*.js.map
+/src/**/*.js
+/src/**/*.js.map
+/src/**/*.log
+/test/*.js
+/test/*.js.map
+/test/**/*.js
+/test/**/*.js.map
+gunit.xml
+*.iml

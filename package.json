@@ -1,0 +1,25 @@
+{
+  "name": "task_akshay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "Akshay Nimbal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.3.9",
+    "nodemon": "^1.18.5",
+    "request": "^2.81.0"
+  }
+}
