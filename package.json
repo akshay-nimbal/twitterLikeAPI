@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app/app2.js",
     "test": "mocha"
   },
   "author": "Akshay Nimbal",
