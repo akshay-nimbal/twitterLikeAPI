@@ -1,0 +1,6 @@
+projectKey=akstay_twitterLikeAPI2
+serverUrl=http://localhost:9000
+serverVersion=7.7.0.23042
+dashboardUrl=http://localhost:9000/dashboard?id=akstay_twitterLikeAPI2
+ceTaskId=AWnDI_KDxlWdgF8Qx78H
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWnDI_KDxlWdgF8Qx78H
